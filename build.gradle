@@ -1,0 +1,57 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.0.8'
+    id 'org.beryx.jlink' version '2.25.0'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+ext {
+    junitVersion = '5.8.2'
+}
+application{
+    //mainClass = "MainDB"
+    mainModule = 'Controller'
+    mainClassName = 'Controller.HelloApplication'
+}
+//jar{
+//    duplicatesStrategy (DuplicatesStrategy.EXCLUDE)
+//    manifest{
+//        attributes('Main-Class':'Controller.HelloApplication')
+//    }
+//    from{
+//        configurations.runtimeClasspath.collect{it.isDirectory() ? it : zipTree(it)}
+//    }
+//}
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+    implementation 'org.apache.logging.log4j:log4j-api:2.17.1'
+    implementation 'org.apache.logging.log4j:log4j-core:2.17.1'
+    // https://mvnrepository.com/artifact/log4j/log4j
+    implementation 'log4j:log4j:1.2.17'
+    runtimeOnly group: 'org.xerial', name: 'sqlite-jdbc', version: '3.36.0.3'
+}
+javafx {
+    version = "19"
+    modules = [ 'javafx.controls' , 'javafx.fxml']
+}
+test {
+    useJUnitPlatform()
+}
+jlink {
+    imageZip = project.file("${buildDir}/distributions/app-${javafx.platform.classifier}.zip")
+    options = ['--strip-debug', '--compress', '2', '--no-header-files', '--no-man-pages']
+    launcher {
+        name = 'app'
+    }
+}
+
+jlinkZip {
+    group = 'distribution'
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ClientFX/agentieTurism.ClientFX.test.iml" filepath="$PROJECT_DIR$/.idea/modules/ClientFX/agentieTurism.ClientFX.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Model/agentieTurism.Model.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Model/agentieTurism.Model.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Networking/agentieTurism.Networking.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Networking/agentieTurism.Networking.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Persistance/agentieTurism.Persistance.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Persistance/agentieTurism.Persistance.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Server/agentieTurism.Server.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Server/agentieTurism.Server.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Services/agentieTurism.Services.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Services/agentieTurism.Services.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/agentieTurism.test.iml" filepath="$PROJECT_DIR$/.idea/modules/agentieTurism.test.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,11 @@
+rootProject.name = 'agentieTurism'
+include 'Model'
+include 'Persistance'
+include 'Networking'
+include 'Client'
+include 'ClientFX'
+include 'ClientFX'
+include 'Server'
+include 'Services'
+include 'RestServices'
+

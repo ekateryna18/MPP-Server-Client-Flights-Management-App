@@ -1,0 +1,600 @@
+22 Mar 2023 08:52:33,030 INFO  Repository.EmployeeRepo.EmployeeDBRepo 20 <init> - Initializing EmployeeDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+22 Mar 2023 08:52:33,037 TRACE Repository.EmployeeRepo.EmployeeDBRepo 26 authentificate - Enter authentificating employee email koana14@yahoo.com 
+22 Mar 2023 08:52:33,037 TRACE Repository.JdbcUtils 47 getConnection - Enter
+22 Mar 2023 08:52:33,037 TRACE Repository.JdbcUtils 24 getNewConnection - Enter
+22 Mar 2023 08:52:33,037 INFO  Repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite
+22 Mar 2023 08:52:33,038 INFO  Repository.JdbcUtils 30 getNewConnection - user: null
+22 Mar 2023 08:52:33,039 INFO  Repository.JdbcUtils 31 getNewConnection - pass: null
+22 Mar 2023 08:52:33,214 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@21ba0741)
+22 Mar 2023 08:52:33,218 INFO  Repository.EmployeeRepo.EmployeeDBRepo 34 authentificate - Authentification successfull!
+22 Mar 2023 08:52:33,230 INFO  Repository.FlightRepo.FlightDBRepo 25 <init> - Initializing FlightDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+22 Mar 2023 08:52:33,235 TRACE Repository.FlightRepo.FlightDBRepo 31 findAvailableFlights - Enter
+22 Mar 2023 08:52:33,236 TRACE Repository.JdbcUtils 47 getConnection - Enter
+22 Mar 2023 08:52:33,236 TRACE Repository.JdbcUtils 24 getNewConnection - Enter
+22 Mar 2023 08:52:33,236 INFO  Repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite
+22 Mar 2023 08:52:33,237 INFO  Repository.JdbcUtils 30 getNewConnection - user: null
+22 Mar 2023 08:52:33,237 INFO  Repository.JdbcUtils 31 getNewConnection - pass: null
+22 Mar 2023 08:52:33,238 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@10a9d961)
+22 Mar 2023 08:52:33,249 TRACE Repository.FlightRepo.FlightDBRepo 55 findAvailableFlights - Exit with([Id: 3, Destination= Nice, Datetime= 2023-08-28T11:20, Airport= Cluj, places= 130, Id: 4, Destination= Dubai, Datetime= 2023-07-10T15:15, Airport= Cluj, places= 130, Id: 5, Destination= Nice, Datetime= 2023-06-13T11:30, Airport= Cluj, places= 100])
+22 Mar 2023 08:52:33,250 TRACE Repository.FlightRepo.FlightDBRepo 61 findFlightsByDestinationDate - Enter
+22 Mar 2023 08:52:33,250 TRACE Repository.JdbcUtils 47 getConnection - Enter
+22 Mar 2023 08:52:33,250 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@10a9d961)
+22 Mar 2023 08:52:33,252 TRACE Repository.FlightRepo.FlightDBRepo 88 findFlightsByDestinationDate - Exit with([Id: 3, Destination= Nice, Datetime= 2023-08-28T11:20, Airport= Cluj, places= 130, Id: 5, Destination= Nice, Datetime= 2023-06-13T11:30, Airport= Cluj, places= 100])
+22 Mar 2023 08:52:33,254 INFO  Repository.TicketRepo.TicketDBRepo 19 <init> - Initializing TicketDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+22 Mar 2023 09:00:29,394 INFO  Repository.EmployeeRepo.EmployeeDBRepo 20 <init> - Initializing EmployeeDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+22 Mar 2023 09:00:29,404 TRACE Repository.EmployeeRepo.EmployeeDBRepo 62 save - Enter saving employee Model.Employee@2b72cb8a 
+22 Mar 2023 09:00:29,404 TRACE Repository.JdbcUtils 47 getConnection - Enter
+22 Mar 2023 09:00:29,404 TRACE Repository.JdbcUtils 24 getNewConnection - Enter
+22 Mar 2023 09:00:29,404 INFO  Repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite
+22 Mar 2023 09:00:29,405 INFO  Repository.JdbcUtils 30 getNewConnection - user: null
+22 Mar 2023 09:00:29,405 INFO  Repository.JdbcUtils 31 getNewConnection - pass: null
+22 Mar 2023 09:00:29,627 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@56673b2c)
+22 Mar 2023 09:00:29,669 TRACE Repository.EmployeeRepo.EmployeeDBRepo 70 save - Saved 1 instances
+22 Mar 2023 09:00:29,669 TRACE Repository.EmployeeRepo.EmployeeDBRepo 75 save - Exit
+22 Mar 2023 09:00:29,670 TRACE Repository.EmployeeRepo.EmployeeDBRepo 26 authentificate - Enter authentificating employee email anisiaplea@yahoo.com 
+22 Mar 2023 09:00:29,671 TRACE Repository.JdbcUtils 47 getConnection - Enter
+22 Mar 2023 09:00:29,671 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@56673b2c)
+22 Mar 2023 09:00:29,672 INFO  Repository.EmployeeRepo.EmployeeDBRepo 34 authentificate - Authentification successfull!
+22 Mar 2023 09:00:29,686 INFO  Repository.FlightRepo.FlightDBRepo 25 <init> - Initializing FlightDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+22 Mar 2023 09:00:29,692 TRACE Repository.FlightRepo.FlightDBRepo 104 save - Enter saving flight [!!!Model.Flight@e383572=>java.lang.NullPointerException:Cannot invoke "java.lang.Integer.toString()" because the return value of "Model.Flight.getId()" is null!!!] 
+22 Mar 2023 09:00:29,693 TRACE Repository.JdbcUtils 47 getConnection - Enter
+22 Mar 2023 09:00:29,693 TRACE Repository.JdbcUtils 24 getNewConnection - Enter
+22 Mar 2023 09:00:29,693 INFO  Repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite
+22 Mar 2023 09:00:29,693 INFO  Repository.JdbcUtils 30 getNewConnection - user: null
+22 Mar 2023 09:00:29,694 INFO  Repository.JdbcUtils 31 getNewConnection - pass: null
+22 Mar 2023 09:00:29,703 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5ddf0d24)
+22 Mar 2023 09:00:29,740 TRACE Repository.FlightRepo.FlightDBRepo 112 save - Saved 1 instances
+22 Mar 2023 09:00:29,741 TRACE Repository.FlightRepo.FlightDBRepo 117 save - Exit
+22 Mar 2023 09:00:29,756 TRACE Repository.FlightRepo.FlightDBRepo 127 update - Enter updating flight Id: 6, Destination= Nice, Datetime= 2023-09-11T11:30, Airport= Bucuresti, places= 100 
+22 Mar 2023 09:00:29,757 TRACE Repository.JdbcUtils 47 getConnection - Enter
+22 Mar 2023 09:00:29,757 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5ddf0d24)
+22 Mar 2023 09:00:29,796 TRACE Repository.FlightRepo.FlightDBRepo 133 update - Updated 1 instances
+22 Mar 2023 09:00:29,796 TRACE Repository.FlightRepo.FlightDBRepo 138 update - Exit
+22 Mar 2023 09:00:29,796 TRACE Repository.FlightRepo.FlightDBRepo 31 findAvailableFlights - Enter
+22 Mar 2023 09:00:29,797 TRACE Repository.JdbcUtils 47 getConnection - Enter
+22 Mar 2023 09:00:29,797 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5ddf0d24)
+22 Mar 2023 09:00:29,802 TRACE Repository.FlightRepo.FlightDBRepo 55 findAvailableFlights - Exit with([Id: 3, Destination= Nice, Datetime= 2023-08-28T11:20, Airport= Cluj, places= 130, Id: 4, Destination= Dubai, Datetime= 2023-07-10T15:15, Airport= Cluj, places= 130, Id: 5, Destination= Nice, Datetime= 2023-06-13T11:30, Airport= Cluj, places= 100, Id: 6, Destination= Nice, Datetime= 2023-09-11T11:30, Airport= Bucuresti, places= 100])
+22 Mar 2023 09:00:29,802 TRACE Repository.FlightRepo.FlightDBRepo 61 findFlightsByDestinationDate - Enter
+22 Mar 2023 09:00:29,803 TRACE Repository.JdbcUtils 47 getConnection - Enter
+22 Mar 2023 09:00:29,803 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5ddf0d24)
+22 Mar 2023 09:00:29,804 TRACE Repository.FlightRepo.FlightDBRepo 88 findFlightsByDestinationDate - Exit with([Id: 3, Destination= Nice, Datetime= 2023-08-28T11:20, Airport= Cluj, places= 130, Id: 5, Destination= Nice, Datetime= 2023-06-13T11:30, Airport= Cluj, places= 100, Id: 6, Destination= Nice, Datetime= 2023-09-11T11:30, Airport= Bucuresti, places= 100])
+22 Mar 2023 09:00:29,807 INFO  Repository.TicketRepo.TicketDBRepo 19 <init> - Initializing TicketDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+22 Mar 2023 09:00:29,808 TRACE Repository.TicketRepo.TicketDBRepo 35 save - Enter saving ticket Model.Ticket@34c01041 
+22 Mar 2023 09:00:29,810 TRACE Repository.JdbcUtils 47 getConnection - Enter
+22 Mar 2023 09:00:29,810 TRACE Repository.JdbcUtils 24 getNewConnection - Enter
+22 Mar 2023 09:00:29,810 INFO  Repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite
+22 Mar 2023 09:00:29,810 INFO  Repository.JdbcUtils 30 getNewConnection - user: null
+22 Mar 2023 09:00:29,811 INFO  Repository.JdbcUtils 31 getNewConnection - pass: null
+22 Mar 2023 09:00:29,820 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@76f4b65)
+22 Mar 2023 09:00:29,858 TRACE Repository.TicketRepo.TicketDBRepo 44 save - Saved 1 instances
+22 Mar 2023 09:00:29,858 TRACE Repository.TicketRepo.TicketDBRepo 49 save - Exit
+28 Mar 2023 20:01:12,532 INFO  Repository.EmployeeRepo.EmployeeDBRepo 20 <init> - Initializing EmployeeDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 20:01:12,548 INFO  Repository.FlightRepo.FlightDBRepo 22 <init> - Initializing FlightDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 20:01:12,550 INFO  Repository.TicketRepo.TicketDBRepo 19 <init> - Initializing TicketDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 20:39:55,644 INFO  Repository.EmployeeRepo.EmployeeDBRepo 20 <init> - Initializing EmployeeDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 20:39:55,657 INFO  Repository.FlightRepo.FlightDBRepo 22 <init> - Initializing FlightDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 20:39:55,658 INFO  Repository.TicketRepo.TicketDBRepo 19 <init> - Initializing TicketDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 20:44:02,460 INFO  Repository.EmployeeRepo.EmployeeDBRepo 20 <init> - Initializing EmployeeDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 20:44:02,476 INFO  Repository.FlightRepo.FlightDBRepo 22 <init> - Initializing FlightDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 20:44:02,478 INFO  Repository.TicketRepo.TicketDBRepo 19 <init> - Initializing TicketDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 20:44:35,925 TRACE Repository.EmployeeRepo.EmployeeDBRepo 26 authentificate - Enter authentificating employee email koana14@yahoo.com 
+28 Mar 2023 20:44:35,926 TRACE Repository.JdbcUtils 47 getConnection - Enter
+28 Mar 2023 20:44:35,927 TRACE Repository.JdbcUtils 24 getNewConnection - Enter
+28 Mar 2023 20:44:35,927 INFO  Repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite
+28 Mar 2023 20:44:35,928 INFO  Repository.JdbcUtils 30 getNewConnection - user: null
+28 Mar 2023 20:44:35,929 INFO  Repository.JdbcUtils 31 getNewConnection - pass: null
+28 Mar 2023 20:44:36,162 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3d4f8ee)
+28 Mar 2023 20:44:36,170 INFO  Repository.EmployeeRepo.EmployeeDBRepo 39 authentificate - Authentification successfull!
+28 Mar 2023 20:50:38,009 INFO  Repository.EmployeeRepo.EmployeeDBRepo 20 <init> - Initializing EmployeeDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 20:50:38,026 INFO  Repository.FlightRepo.FlightDBRepo 22 <init> - Initializing FlightDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 20:50:38,027 INFO  Repository.TicketRepo.TicketDBRepo 19 <init> - Initializing TicketDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 20:51:10,561 TRACE Repository.EmployeeRepo.EmployeeDBRepo 26 authentificate - Enter authentificating employee email koana14@yahoo.com 
+28 Mar 2023 20:51:10,562 TRACE Repository.JdbcUtils 47 getConnection - Enter
+28 Mar 2023 20:51:10,562 TRACE Repository.JdbcUtils 24 getNewConnection - Enter
+28 Mar 2023 20:51:10,562 INFO  Repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite
+28 Mar 2023 20:51:10,563 INFO  Repository.JdbcUtils 30 getNewConnection - user: null
+28 Mar 2023 20:51:10,563 INFO  Repository.JdbcUtils 31 getNewConnection - pass: null
+28 Mar 2023 20:51:10,926 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1065e330)
+28 Mar 2023 20:51:10,936 INFO  Repository.EmployeeRepo.EmployeeDBRepo 39 authentificate - Authentification successfull!
+28 Mar 2023 20:51:11,081 TRACE Repository.FlightRepo.FlightDBRepo 28 findAvailableFlights - Enter
+28 Mar 2023 20:51:11,082 TRACE Repository.JdbcUtils 47 getConnection - Enter
+28 Mar 2023 20:51:11,082 TRACE Repository.JdbcUtils 24 getNewConnection - Enter
+28 Mar 2023 20:51:11,082 INFO  Repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite
+28 Mar 2023 20:51:11,082 INFO  Repository.JdbcUtils 30 getNewConnection - user: null
+28 Mar 2023 20:51:11,083 INFO  Repository.JdbcUtils 31 getNewConnection - pass: null
+28 Mar 2023 20:51:11,084 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4697d5c1)
+28 Mar 2023 20:51:11,098 TRACE Repository.FlightRepo.FlightDBRepo 52 findAvailableFlights - Exit with([Id: 3, Destination= Nice, Datetime= 2023-08-28T11:20, Airport= Cluj, places= 130, Id: 4, Destination= Dubai, Datetime= 2023-07-10T15:15, Airport= Cluj, places= 130, Id: 5, Destination= Nice, Datetime= 2023-06-13T11:30, Airport= Cluj, places= 100, Id: 6, Destination= Nice, Datetime= 2023-09-11T11:30, Airport= Bucuresti, places= 100])
+28 Mar 2023 20:56:05,751 INFO  Repository.EmployeeRepo.EmployeeDBRepo 20 <init> - Initializing EmployeeDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 20:56:05,765 INFO  Repository.FlightRepo.FlightDBRepo 22 <init> - Initializing FlightDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 20:56:05,766 INFO  Repository.TicketRepo.TicketDBRepo 19 <init> - Initializing TicketDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 20:56:26,131 TRACE Repository.EmployeeRepo.EmployeeDBRepo 26 authentificate - Enter authentificating employee email koana14@yahoo.com 
+28 Mar 2023 20:56:26,132 TRACE Repository.JdbcUtils 47 getConnection - Enter
+28 Mar 2023 20:56:26,132 TRACE Repository.JdbcUtils 24 getNewConnection - Enter
+28 Mar 2023 20:56:26,134 INFO  Repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite
+28 Mar 2023 20:56:26,134 INFO  Repository.JdbcUtils 30 getNewConnection - user: null
+28 Mar 2023 20:56:26,134 INFO  Repository.JdbcUtils 31 getNewConnection - pass: null
+28 Mar 2023 20:56:26,344 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@625d26c3)
+28 Mar 2023 20:56:26,352 INFO  Repository.EmployeeRepo.EmployeeDBRepo 39 authentificate - Authentification successfull!
+28 Mar 2023 20:56:26,461 TRACE Repository.FlightRepo.FlightDBRepo 28 findAvailableFlights - Enter
+28 Mar 2023 20:56:26,462 TRACE Repository.JdbcUtils 47 getConnection - Enter
+28 Mar 2023 20:56:26,462 TRACE Repository.JdbcUtils 24 getNewConnection - Enter
+28 Mar 2023 20:56:26,462 INFO  Repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite
+28 Mar 2023 20:56:26,463 INFO  Repository.JdbcUtils 30 getNewConnection - user: null
+28 Mar 2023 20:56:26,463 INFO  Repository.JdbcUtils 31 getNewConnection - pass: null
+28 Mar 2023 20:56:26,464 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2a531fdd)
+28 Mar 2023 20:56:26,488 TRACE Repository.FlightRepo.FlightDBRepo 52 findAvailableFlights - Exit with([Id: 3, Destination= Nice, Datetime= 2023-08-28T11:20, Airport= Cluj, places= 130, Id: 4, Destination= Dubai, Datetime= 2023-07-10T15:15, Airport= Cluj, places= 130, Id: 5, Destination= Nice, Datetime= 2023-06-13T11:30, Airport= Cluj, places= 100, Id: 6, Destination= Nice, Datetime= 2023-09-11T11:30, Airport= Bucuresti, places= 100])
+28 Mar 2023 21:04:02,694 INFO  Repository.EmployeeRepo.EmployeeDBRepo 20 <init> - Initializing EmployeeDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 21:04:02,710 INFO  Repository.FlightRepo.FlightDBRepo 22 <init> - Initializing FlightDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 21:04:02,712 INFO  Repository.TicketRepo.TicketDBRepo 19 <init> - Initializing TicketDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 21:04:17,372 TRACE Repository.EmployeeRepo.EmployeeDBRepo 26 authentificate - Enter authentificating employee email koana14@yahoo.com 
+28 Mar 2023 21:04:17,372 TRACE Repository.JdbcUtils 47 getConnection - Enter
+28 Mar 2023 21:04:17,373 TRACE Repository.JdbcUtils 24 getNewConnection - Enter
+28 Mar 2023 21:04:17,373 INFO  Repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite
+28 Mar 2023 21:04:17,374 INFO  Repository.JdbcUtils 30 getNewConnection - user: null
+28 Mar 2023 21:04:17,375 INFO  Repository.JdbcUtils 31 getNewConnection - pass: null
+28 Mar 2023 21:04:17,574 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@625d26c3)
+28 Mar 2023 21:04:17,578 INFO  Repository.EmployeeRepo.EmployeeDBRepo 39 authentificate - Authentification successfull!
+28 Mar 2023 21:04:17,694 TRACE Repository.FlightRepo.FlightDBRepo 28 findAvailableFlights - Enter
+28 Mar 2023 21:04:17,694 TRACE Repository.JdbcUtils 47 getConnection - Enter
+28 Mar 2023 21:04:17,694 TRACE Repository.JdbcUtils 24 getNewConnection - Enter
+28 Mar 2023 21:04:17,694 INFO  Repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite
+28 Mar 2023 21:04:17,695 INFO  Repository.JdbcUtils 30 getNewConnection - user: null
+28 Mar 2023 21:04:17,695 INFO  Repository.JdbcUtils 31 getNewConnection - pass: null
+28 Mar 2023 21:04:17,696 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2a531fdd)
+28 Mar 2023 21:04:17,710 TRACE Repository.FlightRepo.FlightDBRepo 52 findAvailableFlights - Exit with([Id: 3, Destination= Nice, Datetime= 2023-08-28T11:20, Airport= Cluj, places= 130, Id: 4, Destination= Dubai, Datetime= 2023-07-10T15:15, Airport= Cluj, places= 130, Id: 5, Destination= Nice, Datetime= 2023-06-13T11:30, Airport= Cluj, places= 100, Id: 6, Destination= Nice, Datetime= 2023-09-11T11:30, Airport= Bucuresti, places= 100])
+28 Mar 2023 21:13:46,781 INFO  Repository.EmployeeRepo.EmployeeDBRepo 20 <init> - Initializing EmployeeDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 21:13:46,806 INFO  Repository.FlightRepo.FlightDBRepo 22 <init> - Initializing FlightDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 21:13:46,809 INFO  Repository.TicketRepo.TicketDBRepo 19 <init> - Initializing TicketDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 21:15:23,337 TRACE Repository.EmployeeRepo.EmployeeDBRepo 26 authentificate - Enter authentificating employee email koana14@yahoo.com 
+28 Mar 2023 21:15:23,337 TRACE Repository.JdbcUtils 47 getConnection - Enter
+28 Mar 2023 21:15:23,337 TRACE Repository.JdbcUtils 24 getNewConnection - Enter
+28 Mar 2023 21:15:23,337 INFO  Repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite
+28 Mar 2023 21:15:23,338 INFO  Repository.JdbcUtils 30 getNewConnection - user: null
+28 Mar 2023 21:15:23,338 INFO  Repository.JdbcUtils 31 getNewConnection - pass: null
+28 Mar 2023 21:15:23,514 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@34d395a5)
+28 Mar 2023 21:15:23,519 INFO  Repository.EmployeeRepo.EmployeeDBRepo 39 authentificate - Authentification successfull!
+28 Mar 2023 21:18:19,851 TRACE Repository.FlightRepo.FlightDBRepo 28 findAvailableFlights - Enter
+28 Mar 2023 21:18:19,855 TRACE Repository.JdbcUtils 47 getConnection - Enter
+28 Mar 2023 21:18:19,859 TRACE Repository.JdbcUtils 24 getNewConnection - Enter
+28 Mar 2023 21:18:19,863 INFO  Repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite
+28 Mar 2023 21:18:19,864 INFO  Repository.JdbcUtils 30 getNewConnection - user: null
+28 Mar 2023 21:18:19,866 INFO  Repository.JdbcUtils 31 getNewConnection - pass: null
+28 Mar 2023 21:18:19,870 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@64f2eeaa)
+28 Mar 2023 21:18:19,986 TRACE Repository.FlightRepo.FlightDBRepo 52 findAvailableFlights - Exit with([Id: 3, Destination= Nice, Datetime= 2023-08-28T11:20, Airport= Cluj, places= 130, Id: 4, Destination= Dubai, Datetime= 2023-07-10T15:15, Airport= Cluj, places= 130, Id: 5, Destination= Nice, Datetime= 2023-06-13T11:30, Airport= Cluj, places= 100, Id: 6, Destination= Nice, Datetime= 2023-09-11T11:30, Airport= Bucuresti, places= 100])
+28 Mar 2023 21:23:25,906 INFO  Repository.EmployeeRepo.EmployeeDBRepo 20 <init> - Initializing EmployeeDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 21:23:25,922 INFO  Repository.FlightRepo.FlightDBRepo 22 <init> - Initializing FlightDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 21:23:25,923 INFO  Repository.TicketRepo.TicketDBRepo 19 <init> - Initializing TicketDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 21:23:42,956 TRACE Repository.EmployeeRepo.EmployeeDBRepo 26 authentificate - Enter authentificating employee email koana14@yahoo.com 
+28 Mar 2023 21:23:42,956 TRACE Repository.JdbcUtils 47 getConnection - Enter
+28 Mar 2023 21:23:42,957 TRACE Repository.JdbcUtils 24 getNewConnection - Enter
+28 Mar 2023 21:23:42,958 INFO  Repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite
+28 Mar 2023 21:23:42,958 INFO  Repository.JdbcUtils 30 getNewConnection - user: null
+28 Mar 2023 21:23:42,959 INFO  Repository.JdbcUtils 31 getNewConnection - pass: null
+28 Mar 2023 21:23:43,168 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@625d26c3)
+28 Mar 2023 21:23:43,174 INFO  Repository.EmployeeRepo.EmployeeDBRepo 39 authentificate - Authentification successfull!
+28 Mar 2023 21:23:43,277 TRACE Repository.FlightRepo.FlightDBRepo 28 findAvailableFlights - Enter
+28 Mar 2023 21:23:43,277 TRACE Repository.JdbcUtils 47 getConnection - Enter
+28 Mar 2023 21:23:43,277 TRACE Repository.JdbcUtils 24 getNewConnection - Enter
+28 Mar 2023 21:23:43,277 INFO  Repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite
+28 Mar 2023 21:23:43,277 INFO  Repository.JdbcUtils 30 getNewConnection - user: null
+28 Mar 2023 21:23:43,277 INFO  Repository.JdbcUtils 31 getNewConnection - pass: null
+28 Mar 2023 21:23:43,278 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2a531fdd)
+28 Mar 2023 21:23:43,290 TRACE Repository.FlightRepo.FlightDBRepo 52 findAvailableFlights - Exit with([Id: 3, Destination= Nice, Datetime= 2023-08-28T11:20, Airport= Cluj, places= 130, Id: 4, Destination= Dubai, Datetime= 2023-07-10T15:15, Airport= Cluj, places= 130, Id: 5, Destination= Nice, Datetime= 2023-06-13T11:30, Airport= Cluj, places= 100, Id: 6, Destination= Nice, Datetime= 2023-09-11T11:30, Airport= Bucuresti, places= 100])
+28 Mar 2023 22:46:06,119 INFO  Repository.EmployeeRepo.EmployeeDBRepo 20 <init> - Initializing EmployeeDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 22:46:06,134 INFO  Repository.FlightRepo.FlightDBRepo 22 <init> - Initializing FlightDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 22:46:06,136 INFO  Repository.TicketRepo.TicketDBRepo 19 <init> - Initializing TicketDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 22:46:19,503 TRACE Repository.EmployeeRepo.EmployeeDBRepo 26 authentificate - Enter authentificating employee email koana14@yahoo.com 
+28 Mar 2023 22:46:19,503 TRACE Repository.JdbcUtils 47 getConnection - Enter
+28 Mar 2023 22:46:19,504 TRACE Repository.JdbcUtils 24 getNewConnection - Enter
+28 Mar 2023 22:46:19,504 INFO  Repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite
+28 Mar 2023 22:46:19,505 INFO  Repository.JdbcUtils 30 getNewConnection - user: null
+28 Mar 2023 22:46:19,506 INFO  Repository.JdbcUtils 31 getNewConnection - pass: null
+28 Mar 2023 22:46:19,693 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@625d26c3)
+28 Mar 2023 22:46:19,697 INFO  Repository.EmployeeRepo.EmployeeDBRepo 39 authentificate - Authentification successfull!
+28 Mar 2023 22:46:19,799 TRACE Repository.FlightRepo.FlightDBRepo 28 findAvailableFlights - Enter
+28 Mar 2023 22:46:19,799 TRACE Repository.JdbcUtils 47 getConnection - Enter
+28 Mar 2023 22:46:19,800 TRACE Repository.JdbcUtils 24 getNewConnection - Enter
+28 Mar 2023 22:46:19,800 INFO  Repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite
+28 Mar 2023 22:46:19,800 INFO  Repository.JdbcUtils 30 getNewConnection - user: null
+28 Mar 2023 22:46:19,800 INFO  Repository.JdbcUtils 31 getNewConnection - pass: null
+28 Mar 2023 22:46:19,801 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6d096106)
+28 Mar 2023 22:46:19,814 TRACE Repository.FlightRepo.FlightDBRepo 52 findAvailableFlights - Exit with([Id: 3, Destination= Nice, Datetime= 2023-08-28T11:20, Airport= Cluj, places= 130, Id: 4, Destination= Dubai, Datetime= 2023-07-10T15:15, Airport= Cluj, places= 130, Id: 5, Destination= Nice, Datetime= 2023-06-13T11:30, Airport= Cluj, places= 100, Id: 6, Destination= Nice, Datetime= 2023-09-11T11:30, Airport= Bucuresti, places= 100])
+28 Mar 2023 22:48:56,541 INFO  Repository.EmployeeRepo.EmployeeDBRepo 20 <init> - Initializing EmployeeDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 22:48:56,562 INFO  Repository.FlightRepo.FlightDBRepo 22 <init> - Initializing FlightDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 22:48:56,565 INFO  Repository.TicketRepo.TicketDBRepo 19 <init> - Initializing TicketDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 22:49:09,035 TRACE Repository.EmployeeRepo.EmployeeDBRepo 26 authentificate - Enter authentificating employee email koana14@yahoo.com 
+28 Mar 2023 22:49:09,035 TRACE Repository.JdbcUtils 47 getConnection - Enter
+28 Mar 2023 22:49:09,036 TRACE Repository.JdbcUtils 24 getNewConnection - Enter
+28 Mar 2023 22:49:09,036 INFO  Repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite
+28 Mar 2023 22:49:09,038 INFO  Repository.JdbcUtils 30 getNewConnection - user: null
+28 Mar 2023 22:49:09,038 INFO  Repository.JdbcUtils 31 getNewConnection - pass: null
+28 Mar 2023 22:49:09,233 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@625d26c3)
+28 Mar 2023 22:49:09,237 INFO  Repository.EmployeeRepo.EmployeeDBRepo 39 authentificate - Authentification successfull!
+28 Mar 2023 22:49:09,371 TRACE Repository.FlightRepo.FlightDBRepo 28 findAvailableFlights - Enter
+28 Mar 2023 22:49:09,371 TRACE Repository.JdbcUtils 47 getConnection - Enter
+28 Mar 2023 22:49:09,371 TRACE Repository.JdbcUtils 24 getNewConnection - Enter
+28 Mar 2023 22:49:09,371 INFO  Repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite
+28 Mar 2023 22:49:09,371 INFO  Repository.JdbcUtils 30 getNewConnection - user: null
+28 Mar 2023 22:49:09,372 INFO  Repository.JdbcUtils 31 getNewConnection - pass: null
+28 Mar 2023 22:49:09,373 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6d096106)
+28 Mar 2023 22:49:09,388 TRACE Repository.FlightRepo.FlightDBRepo 52 findAvailableFlights - Exit with([Id: 3, Destination= Nice, Datetime= 2023-08-28T11:20, Airport= Cluj, places= 130, Id: 4, Destination= Dubai, Datetime= 2023-07-10T15:15, Airport= Cluj, places= 130, Id: 5, Destination= Nice, Datetime= 2023-06-13T11:30, Airport= Cluj, places= 100, Id: 6, Destination= Nice, Datetime= 2023-09-11T11:30, Airport= Bucuresti, places= 100])
+28 Mar 2023 22:49:53,158 INFO  Repository.EmployeeRepo.EmployeeDBRepo 20 <init> - Initializing EmployeeDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 22:49:53,172 INFO  Repository.FlightRepo.FlightDBRepo 22 <init> - Initializing FlightDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 22:49:53,174 INFO  Repository.TicketRepo.TicketDBRepo 19 <init> - Initializing TicketDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 22:50:05,229 TRACE Repository.EmployeeRepo.EmployeeDBRepo 26 authentificate - Enter authentificating employee email koana14@yahoo.com 
+28 Mar 2023 22:50:05,230 TRACE Repository.JdbcUtils 47 getConnection - Enter
+28 Mar 2023 22:50:05,230 TRACE Repository.JdbcUtils 24 getNewConnection - Enter
+28 Mar 2023 22:50:05,231 INFO  Repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite
+28 Mar 2023 22:50:05,231 INFO  Repository.JdbcUtils 30 getNewConnection - user: null
+28 Mar 2023 22:50:05,232 INFO  Repository.JdbcUtils 31 getNewConnection - pass: null
+28 Mar 2023 22:50:05,442 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@625d26c3)
+28 Mar 2023 22:50:05,452 INFO  Repository.EmployeeRepo.EmployeeDBRepo 39 authentificate - Authentification successfull!
+28 Mar 2023 22:50:05,578 TRACE Repository.FlightRepo.FlightDBRepo 28 findAvailableFlights - Enter
+28 Mar 2023 22:50:05,579 TRACE Repository.JdbcUtils 47 getConnection - Enter
+28 Mar 2023 22:50:05,579 TRACE Repository.JdbcUtils 24 getNewConnection - Enter
+28 Mar 2023 22:50:05,579 INFO  Repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite
+28 Mar 2023 22:50:05,580 INFO  Repository.JdbcUtils 30 getNewConnection - user: null
+28 Mar 2023 22:50:05,580 INFO  Repository.JdbcUtils 31 getNewConnection - pass: null
+28 Mar 2023 22:50:05,581 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6d096106)
+28 Mar 2023 22:50:05,597 TRACE Repository.FlightRepo.FlightDBRepo 52 findAvailableFlights - Exit with([Id: 3, Destination= Nice, Datetime= 2023-08-28T11:20, Airport= Cluj, places= 130, Id: 4, Destination= Dubai, Datetime= 2023-07-10T15:15, Airport= Cluj, places= 130, Id: 5, Destination= Nice, Datetime= 2023-06-13T11:30, Airport= Cluj, places= 100, Id: 6, Destination= Nice, Datetime= 2023-09-11T11:30, Airport= Bucuresti, places= 100])
+28 Mar 2023 22:52:09,134 INFO  Repository.EmployeeRepo.EmployeeDBRepo 20 <init> - Initializing EmployeeDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 22:52:09,155 INFO  Repository.FlightRepo.FlightDBRepo 22 <init> - Initializing FlightDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 22:52:09,157 INFO  Repository.TicketRepo.TicketDBRepo 19 <init> - Initializing TicketDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 22:52:20,700 TRACE Repository.EmployeeRepo.EmployeeDBRepo 26 authentificate - Enter authentificating employee email koana14@yahoo.com 
+28 Mar 2023 22:52:20,701 TRACE Repository.JdbcUtils 47 getConnection - Enter
+28 Mar 2023 22:52:20,702 TRACE Repository.JdbcUtils 24 getNewConnection - Enter
+28 Mar 2023 22:52:20,702 INFO  Repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite
+28 Mar 2023 22:52:20,703 INFO  Repository.JdbcUtils 30 getNewConnection - user: null
+28 Mar 2023 22:52:20,704 INFO  Repository.JdbcUtils 31 getNewConnection - pass: null
+28 Mar 2023 22:52:20,892 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@625d26c3)
+28 Mar 2023 22:52:20,897 INFO  Repository.EmployeeRepo.EmployeeDBRepo 39 authentificate - Authentification successfull!
+28 Mar 2023 22:52:21,022 TRACE Repository.FlightRepo.FlightDBRepo 28 findAvailableFlights - Enter
+28 Mar 2023 22:52:21,022 TRACE Repository.JdbcUtils 47 getConnection - Enter
+28 Mar 2023 22:52:21,022 TRACE Repository.JdbcUtils 24 getNewConnection - Enter
+28 Mar 2023 22:52:21,022 INFO  Repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite
+28 Mar 2023 22:52:21,023 INFO  Repository.JdbcUtils 30 getNewConnection - user: null
+28 Mar 2023 22:52:21,023 INFO  Repository.JdbcUtils 31 getNewConnection - pass: null
+28 Mar 2023 22:52:21,024 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6d096106)
+28 Mar 2023 22:52:21,038 TRACE Repository.FlightRepo.FlightDBRepo 52 findAvailableFlights - Exit with([Id: 3, Destination= Nice, Datetime= 2023-08-28T11:20, Airport= Cluj, places= 130, Id: 4, Destination= Dubai, Datetime= 2023-07-10T15:15, Airport= Cluj, places= 130, Id: 5, Destination= Nice, Datetime= 2023-06-13T11:30, Airport= Cluj, places= 100, Id: 6, Destination= Nice, Datetime= 2023-09-11T11:30, Airport= Bucuresti, places= 100])
+28 Mar 2023 23:00:28,162 INFO  Repository.EmployeeRepo.EmployeeDBRepo 20 <init> - Initializing EmployeeDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 23:00:28,174 INFO  Repository.FlightRepo.FlightDBRepo 22 <init> - Initializing FlightDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 23:00:28,176 INFO  Repository.TicketRepo.TicketDBRepo 19 <init> - Initializing TicketDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 23:00:39,789 TRACE Repository.EmployeeRepo.EmployeeDBRepo 26 authentificate - Enter authentificating employee email koana14@yahoo.com 
+28 Mar 2023 23:00:39,790 TRACE Repository.JdbcUtils 47 getConnection - Enter
+28 Mar 2023 23:00:39,790 TRACE Repository.JdbcUtils 24 getNewConnection - Enter
+28 Mar 2023 23:00:39,790 INFO  Repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite
+28 Mar 2023 23:00:39,790 INFO  Repository.JdbcUtils 30 getNewConnection - user: null
+28 Mar 2023 23:00:39,791 INFO  Repository.JdbcUtils 31 getNewConnection - pass: null
+28 Mar 2023 23:00:39,955 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@625d26c3)
+28 Mar 2023 23:00:39,959 INFO  Repository.EmployeeRepo.EmployeeDBRepo 39 authentificate - Authentification successfull!
+28 Mar 2023 23:00:40,060 TRACE Repository.FlightRepo.FlightDBRepo 28 findAvailableFlights - Enter
+28 Mar 2023 23:00:40,061 TRACE Repository.JdbcUtils 47 getConnection - Enter
+28 Mar 2023 23:00:40,061 TRACE Repository.JdbcUtils 24 getNewConnection - Enter
+28 Mar 2023 23:00:40,061 INFO  Repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite
+28 Mar 2023 23:00:40,061 INFO  Repository.JdbcUtils 30 getNewConnection - user: null
+28 Mar 2023 23:00:40,062 INFO  Repository.JdbcUtils 31 getNewConnection - pass: null
+28 Mar 2023 23:00:40,063 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6d096106)
+28 Mar 2023 23:00:40,076 TRACE Repository.FlightRepo.FlightDBRepo 52 findAvailableFlights - Exit with([Id: 3, Destination= Nice, Datetime= 2023-08-28T11:20, Airport= Cluj, places= 130, Id: 4, Destination= Dubai, Datetime= 2023-07-10T15:15, Airport= Cluj, places= 130, Id: 5, Destination= Nice, Datetime= 2023-06-13T11:30, Airport= Cluj, places= 100, Id: 6, Destination= Nice, Datetime= 2023-09-11T11:30, Airport= Bucuresti, places= 100])
+28 Mar 2023 23:01:25,711 INFO  Repository.EmployeeRepo.EmployeeDBRepo 20 <init> - Initializing EmployeeDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 23:01:25,727 INFO  Repository.FlightRepo.FlightDBRepo 22 <init> - Initializing FlightDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 23:01:25,728 INFO  Repository.TicketRepo.TicketDBRepo 19 <init> - Initializing TicketDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 23:01:39,071 TRACE Repository.EmployeeRepo.EmployeeDBRepo 26 authentificate - Enter authentificating employee email koana14@yahoo.com 
+28 Mar 2023 23:01:39,071 TRACE Repository.JdbcUtils 47 getConnection - Enter
+28 Mar 2023 23:01:39,071 TRACE Repository.JdbcUtils 24 getNewConnection - Enter
+28 Mar 2023 23:01:39,072 INFO  Repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite
+28 Mar 2023 23:01:39,072 INFO  Repository.JdbcUtils 30 getNewConnection - user: null
+28 Mar 2023 23:01:39,073 INFO  Repository.JdbcUtils 31 getNewConnection - pass: null
+28 Mar 2023 23:01:39,223 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@625d26c3)
+28 Mar 2023 23:01:39,227 INFO  Repository.EmployeeRepo.EmployeeDBRepo 39 authentificate - Authentification successfull!
+28 Mar 2023 23:01:39,320 TRACE Repository.FlightRepo.FlightDBRepo 28 findAvailableFlights - Enter
+28 Mar 2023 23:01:39,320 TRACE Repository.JdbcUtils 47 getConnection - Enter
+28 Mar 2023 23:01:39,320 TRACE Repository.JdbcUtils 24 getNewConnection - Enter
+28 Mar 2023 23:01:39,320 INFO  Repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite
+28 Mar 2023 23:01:39,321 INFO  Repository.JdbcUtils 30 getNewConnection - user: null
+28 Mar 2023 23:01:39,321 INFO  Repository.JdbcUtils 31 getNewConnection - pass: null
+28 Mar 2023 23:01:39,322 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6d096106)
+28 Mar 2023 23:01:39,336 TRACE Repository.FlightRepo.FlightDBRepo 52 findAvailableFlights - Exit with([Id: 3, Destination= Nice, Datetime= 2023-08-28T11:20, Airport= Cluj, places= 130, Id: 4, Destination= Dubai, Datetime= 2023-07-10T15:15, Airport= Cluj, places= 130, Id: 5, Destination= Nice, Datetime= 2023-06-13T11:30, Airport= Cluj, places= 100, Id: 6, Destination= Nice, Datetime= 2023-09-11T11:30, Airport= Bucuresti, places= 100])
+28 Mar 2023 23:02:11,067 INFO  Repository.EmployeeRepo.EmployeeDBRepo 20 <init> - Initializing EmployeeDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 23:02:11,080 INFO  Repository.FlightRepo.FlightDBRepo 22 <init> - Initializing FlightDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 23:02:11,082 INFO  Repository.TicketRepo.TicketDBRepo 19 <init> - Initializing TicketDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 23:02:26,275 TRACE Repository.EmployeeRepo.EmployeeDBRepo 26 authentificate - Enter authentificating employee email koana14@yahoo.com 
+28 Mar 2023 23:02:26,275 TRACE Repository.JdbcUtils 47 getConnection - Enter
+28 Mar 2023 23:02:26,275 TRACE Repository.JdbcUtils 24 getNewConnection - Enter
+28 Mar 2023 23:02:26,276 INFO  Repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite
+28 Mar 2023 23:02:26,276 INFO  Repository.JdbcUtils 30 getNewConnection - user: null
+28 Mar 2023 23:02:26,276 INFO  Repository.JdbcUtils 31 getNewConnection - pass: null
+28 Mar 2023 23:02:26,427 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@625d26c3)
+28 Mar 2023 23:02:26,431 INFO  Repository.EmployeeRepo.EmployeeDBRepo 39 authentificate - Authentification successfull!
+28 Mar 2023 23:02:26,544 TRACE Repository.FlightRepo.FlightDBRepo 28 findAvailableFlights - Enter
+28 Mar 2023 23:02:26,544 TRACE Repository.JdbcUtils 47 getConnection - Enter
+28 Mar 2023 23:02:26,544 TRACE Repository.JdbcUtils 24 getNewConnection - Enter
+28 Mar 2023 23:02:26,544 INFO  Repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite
+28 Mar 2023 23:02:26,545 INFO  Repository.JdbcUtils 30 getNewConnection - user: null
+28 Mar 2023 23:02:26,545 INFO  Repository.JdbcUtils 31 getNewConnection - pass: null
+28 Mar 2023 23:02:26,546 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6d096106)
+28 Mar 2023 23:02:26,557 TRACE Repository.FlightRepo.FlightDBRepo 52 findAvailableFlights - Exit with([Id: 3, Destination= Nice, Datetime= 2023-08-28T11:20, Airport= Cluj, places= 130, Id: 4, Destination= Dubai, Datetime= 2023-07-10T15:15, Airport= Cluj, places= 130, Id: 5, Destination= Nice, Datetime= 2023-06-13T11:30, Airport= Cluj, places= 100, Id: 6, Destination= Nice, Datetime= 2023-09-11T11:30, Airport= Bucuresti, places= 100])
+28 Mar 2023 23:08:19,710 INFO  Repository.EmployeeRepo.EmployeeDBRepo 20 <init> - Initializing EmployeeDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 23:08:19,725 INFO  Repository.FlightRepo.FlightDBRepo 22 <init> - Initializing FlightDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 23:08:19,726 INFO  Repository.TicketRepo.TicketDBRepo 19 <init> - Initializing TicketDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 23:08:31,039 TRACE Repository.EmployeeRepo.EmployeeDBRepo 26 authentificate - Enter authentificating employee email koana14@yahoo.com 
+28 Mar 2023 23:08:31,039 TRACE Repository.JdbcUtils 47 getConnection - Enter
+28 Mar 2023 23:08:31,039 TRACE Repository.JdbcUtils 24 getNewConnection - Enter
+28 Mar 2023 23:08:31,039 INFO  Repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite
+28 Mar 2023 23:08:31,040 INFO  Repository.JdbcUtils 30 getNewConnection - user: null
+28 Mar 2023 23:08:31,040 INFO  Repository.JdbcUtils 31 getNewConnection - pass: null
+28 Mar 2023 23:08:31,202 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@625d26c3)
+28 Mar 2023 23:08:31,206 INFO  Repository.EmployeeRepo.EmployeeDBRepo 39 authentificate - Authentification successfull!
+28 Mar 2023 23:08:31,299 TRACE Repository.FlightRepo.FlightDBRepo 28 findAvailableFlights - Enter
+28 Mar 2023 23:08:31,299 TRACE Repository.JdbcUtils 47 getConnection - Enter
+28 Mar 2023 23:08:31,299 TRACE Repository.JdbcUtils 24 getNewConnection - Enter
+28 Mar 2023 23:08:31,300 INFO  Repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite
+28 Mar 2023 23:08:31,300 INFO  Repository.JdbcUtils 30 getNewConnection - user: null
+28 Mar 2023 23:08:31,300 INFO  Repository.JdbcUtils 31 getNewConnection - pass: null
+28 Mar 2023 23:08:31,301 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6d096106)
+28 Mar 2023 23:08:31,316 TRACE Repository.FlightRepo.FlightDBRepo 52 findAvailableFlights - Exit with([Id: 3, Destination= Nice, Datetime= 2023-08-28T11:20, Airport= Cluj, places= 130, Id: 4, Destination= Dubai, Datetime= 2023-07-10T15:15, Airport= Cluj, places= 130, Id: 5, Destination= Nice, Datetime= 2023-06-13T11:30, Airport= Cluj, places= 100, Id: 6, Destination= Nice, Datetime= 2023-09-11T11:30, Airport= Bucuresti, places= 100])
+28 Mar 2023 23:09:50,287 INFO  Repository.EmployeeRepo.EmployeeDBRepo 20 <init> - Initializing EmployeeDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 23:09:50,301 INFO  Repository.FlightRepo.FlightDBRepo 22 <init> - Initializing FlightDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 23:09:50,302 INFO  Repository.TicketRepo.TicketDBRepo 19 <init> - Initializing TicketDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 23:10:04,228 TRACE Repository.EmployeeRepo.EmployeeDBRepo 26 authentificate - Enter authentificating employee email koana14@yahoo.com 
+28 Mar 2023 23:10:04,228 TRACE Repository.JdbcUtils 47 getConnection - Enter
+28 Mar 2023 23:10:04,229 TRACE Repository.JdbcUtils 24 getNewConnection - Enter
+28 Mar 2023 23:10:04,229 INFO  Repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite
+28 Mar 2023 23:10:04,229 INFO  Repository.JdbcUtils 30 getNewConnection - user: null
+28 Mar 2023 23:10:04,230 INFO  Repository.JdbcUtils 31 getNewConnection - pass: null
+28 Mar 2023 23:10:04,388 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1be1235a)
+28 Mar 2023 23:10:04,392 INFO  Repository.EmployeeRepo.EmployeeDBRepo 39 authentificate - Authentification successfull!
+28 Mar 2023 23:10:04,489 TRACE Repository.FlightRepo.FlightDBRepo 28 findAvailableFlights - Enter
+28 Mar 2023 23:10:04,490 TRACE Repository.JdbcUtils 47 getConnection - Enter
+28 Mar 2023 23:10:04,490 TRACE Repository.JdbcUtils 24 getNewConnection - Enter
+28 Mar 2023 23:10:04,491 INFO  Repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite
+28 Mar 2023 23:10:04,491 INFO  Repository.JdbcUtils 30 getNewConnection - user: null
+28 Mar 2023 23:10:04,491 INFO  Repository.JdbcUtils 31 getNewConnection - pass: null
+28 Mar 2023 23:10:04,492 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7b203a49)
+28 Mar 2023 23:10:04,506 TRACE Repository.FlightRepo.FlightDBRepo 52 findAvailableFlights - Exit with([Id: 3, Destination= Nice, Datetime= 2023-08-28T11:20, Airport= Cluj, places= 130, Id: 4, Destination= Dubai, Datetime= 2023-07-10T15:15, Airport= Cluj, places= 130, Id: 5, Destination= Nice, Datetime= 2023-06-13T11:30, Airport= Cluj, places= 100, Id: 6, Destination= Nice, Datetime= 2023-09-11T11:30, Airport= Bucuresti, places= 100])
+28 Mar 2023 23:10:27,381 TRACE Repository.FlightRepo.FlightDBRepo 58 findFlightsByDestinationDate - Enter
+28 Mar 2023 23:10:27,381 TRACE Repository.JdbcUtils 47 getConnection - Enter
+28 Mar 2023 23:10:27,381 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7b203a49)
+28 Mar 2023 23:10:27,382 TRACE Repository.FlightRepo.FlightDBRepo 85 findFlightsByDestinationDate - Exit with([Id: 3, Destination= Nice, Datetime= 2023-08-28T11:20, Airport= Cluj, places= 130, Id: 6, Destination= Nice, Datetime= 2023-09-11T11:30, Airport= Bucuresti, places= 100])
+28 Mar 2023 23:12:14,542 INFO  Repository.EmployeeRepo.EmployeeDBRepo 20 <init> - Initializing EmployeeDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 23:12:14,555 INFO  Repository.FlightRepo.FlightDBRepo 22 <init> - Initializing FlightDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 23:12:14,557 INFO  Repository.TicketRepo.TicketDBRepo 19 <init> - Initializing TicketDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 23:12:25,722 TRACE Repository.EmployeeRepo.EmployeeDBRepo 26 authentificate - Enter authentificating employee email koana14@yahoo.com 
+28 Mar 2023 23:12:25,723 TRACE Repository.JdbcUtils 47 getConnection - Enter
+28 Mar 2023 23:12:25,723 TRACE Repository.JdbcUtils 24 getNewConnection - Enter
+28 Mar 2023 23:12:25,723 INFO  Repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite
+28 Mar 2023 23:12:25,723 INFO  Repository.JdbcUtils 30 getNewConnection - user: null
+28 Mar 2023 23:12:25,724 INFO  Repository.JdbcUtils 31 getNewConnection - pass: null
+28 Mar 2023 23:12:25,884 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@625d26c3)
+28 Mar 2023 23:12:25,887 INFO  Repository.EmployeeRepo.EmployeeDBRepo 39 authentificate - Authentification successfull!
+28 Mar 2023 23:12:25,985 TRACE Repository.FlightRepo.FlightDBRepo 28 findAvailableFlights - Enter
+28 Mar 2023 23:12:25,985 TRACE Repository.JdbcUtils 47 getConnection - Enter
+28 Mar 2023 23:12:25,985 TRACE Repository.JdbcUtils 24 getNewConnection - Enter
+28 Mar 2023 23:12:25,985 INFO  Repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite
+28 Mar 2023 23:12:25,985 INFO  Repository.JdbcUtils 30 getNewConnection - user: null
+28 Mar 2023 23:12:25,986 INFO  Repository.JdbcUtils 31 getNewConnection - pass: null
+28 Mar 2023 23:12:25,987 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6d096106)
+28 Mar 2023 23:12:26,000 TRACE Repository.FlightRepo.FlightDBRepo 52 findAvailableFlights - Exit with([Id: 3, Destination= Nice, Datetime= 2023-08-28T11:20, Airport= Cluj, places= 130, Id: 4, Destination= Dubai, Datetime= 2023-07-10T15:15, Airport= Cluj, places= 130, Id: 5, Destination= Nice, Datetime= 2023-06-13T11:30, Airport= Cluj, places= 100, Id: 6, Destination= Nice, Datetime= 2023-09-11T11:30, Airport= Bucuresti, places= 100])
+28 Mar 2023 23:12:39,193 TRACE Repository.FlightRepo.FlightDBRepo 58 findFlightsByDestinationDate - Enter
+28 Mar 2023 23:12:39,193 TRACE Repository.JdbcUtils 47 getConnection - Enter
+28 Mar 2023 23:12:39,193 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6d096106)
+28 Mar 2023 23:12:39,194 TRACE Repository.FlightRepo.FlightDBRepo 85 findFlightsByDestinationDate - Exit with([Id: 3, Destination= Nice, Datetime= 2023-08-28T11:20, Airport= Cluj, places= 130, Id: 6, Destination= Nice, Datetime= 2023-09-11T11:30, Airport= Bucuresti, places= 100])
+28 Mar 2023 23:28:33,186 INFO  Repository.EmployeeRepo.EmployeeDBRepo 20 <init> - Initializing EmployeeDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 23:28:33,200 INFO  Repository.FlightRepo.FlightDBRepo 22 <init> - Initializing FlightDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 23:28:33,202 INFO  Repository.TicketRepo.TicketDBRepo 19 <init> - Initializing TicketDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 23:28:54,169 TRACE Repository.EmployeeRepo.EmployeeDBRepo 26 authentificate - Enter authentificating employee email koana14@yahoo.com 
+28 Mar 2023 23:28:54,170 TRACE Repository.JdbcUtils 47 getConnection - Enter
+28 Mar 2023 23:28:54,170 TRACE Repository.JdbcUtils 24 getNewConnection - Enter
+28 Mar 2023 23:28:54,170 INFO  Repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite
+28 Mar 2023 23:28:54,171 INFO  Repository.JdbcUtils 30 getNewConnection - user: null
+28 Mar 2023 23:28:54,171 INFO  Repository.JdbcUtils 31 getNewConnection - pass: null
+28 Mar 2023 23:28:54,336 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1be1235a)
+28 Mar 2023 23:28:54,339 INFO  Repository.EmployeeRepo.EmployeeDBRepo 39 authentificate - Authentification successfull!
+28 Mar 2023 23:28:54,435 TRACE Repository.FlightRepo.FlightDBRepo 28 findAvailableFlights - Enter
+28 Mar 2023 23:28:54,436 TRACE Repository.JdbcUtils 47 getConnection - Enter
+28 Mar 2023 23:28:54,436 TRACE Repository.JdbcUtils 24 getNewConnection - Enter
+28 Mar 2023 23:28:54,436 INFO  Repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite
+28 Mar 2023 23:28:54,436 INFO  Repository.JdbcUtils 30 getNewConnection - user: null
+28 Mar 2023 23:28:54,437 INFO  Repository.JdbcUtils 31 getNewConnection - pass: null
+28 Mar 2023 23:28:54,438 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@79786095)
+28 Mar 2023 23:28:54,453 TRACE Repository.FlightRepo.FlightDBRepo 52 findAvailableFlights - Exit with([Id: 3, Destination= Nice, Datetime= 2023-08-28T11:20, Airport= Cluj, places= 130, Id: 4, Destination= Dubai, Datetime= 2023-07-10T15:15, Airport= Cluj, places= 130, Id: 5, Destination= Nice, Datetime= 2023-06-13T11:30, Airport= Cluj, places= 100, Id: 6, Destination= Nice, Datetime= 2023-09-11T11:30, Airport= Bucuresti, places= 100])
+28 Mar 2023 23:29:12,759 TRACE Repository.FlightRepo.FlightDBRepo 58 findFlightsByDestinationDate - Enter
+28 Mar 2023 23:29:12,760 TRACE Repository.JdbcUtils 47 getConnection - Enter
+28 Mar 2023 23:29:12,760 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@79786095)
+28 Mar 2023 23:29:12,762 TRACE Repository.FlightRepo.FlightDBRepo 85 findFlightsByDestinationDate - Exit with([Id: 3, Destination= Nice, Datetime= 2023-08-28T11:20, Airport= Cluj, places= 130, Id: 6, Destination= Nice, Datetime= 2023-09-11T11:30, Airport= Bucuresti, places= 100])
+28 Mar 2023 23:32:02,749 INFO  Repository.EmployeeRepo.EmployeeDBRepo 20 <init> - Initializing EmployeeDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 23:32:02,762 INFO  Repository.FlightRepo.FlightDBRepo 22 <init> - Initializing FlightDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 23:32:02,764 INFO  Repository.TicketRepo.TicketDBRepo 19 <init> - Initializing TicketDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 23:32:17,048 TRACE Repository.EmployeeRepo.EmployeeDBRepo 26 authentificate - Enter authentificating employee email koana14@yahoo.com 
+28 Mar 2023 23:32:17,048 TRACE Repository.JdbcUtils 47 getConnection - Enter
+28 Mar 2023 23:32:17,049 TRACE Repository.JdbcUtils 24 getNewConnection - Enter
+28 Mar 2023 23:32:17,049 INFO  Repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite
+28 Mar 2023 23:32:17,049 INFO  Repository.JdbcUtils 30 getNewConnection - user: null
+28 Mar 2023 23:32:17,049 INFO  Repository.JdbcUtils 31 getNewConnection - pass: null
+28 Mar 2023 23:32:17,201 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6fef5408)
+28 Mar 2023 23:32:17,205 INFO  Repository.EmployeeRepo.EmployeeDBRepo 39 authentificate - Authentification successfull!
+28 Mar 2023 23:32:17,308 TRACE Repository.FlightRepo.FlightDBRepo 28 findAvailableFlights - Enter
+28 Mar 2023 23:32:17,308 TRACE Repository.JdbcUtils 47 getConnection - Enter
+28 Mar 2023 23:32:17,308 TRACE Repository.JdbcUtils 24 getNewConnection - Enter
+28 Mar 2023 23:32:17,308 INFO  Repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite
+28 Mar 2023 23:32:17,309 INFO  Repository.JdbcUtils 30 getNewConnection - user: null
+28 Mar 2023 23:32:17,309 INFO  Repository.JdbcUtils 31 getNewConnection - pass: null
+28 Mar 2023 23:32:17,310 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6db3423e)
+28 Mar 2023 23:32:17,322 TRACE Repository.FlightRepo.FlightDBRepo 52 findAvailableFlights - Exit with([Id: 3, Destination= Nice, Datetime= 2023-08-28T11:20, Airport= Cluj, places= 130, Id: 4, Destination= Dubai, Datetime= 2023-07-10T15:15, Airport= Cluj, places= 130, Id: 5, Destination= Nice, Datetime= 2023-06-13T11:30, Airport= Cluj, places= 100, Id: 6, Destination= Nice, Datetime= 2023-09-11T11:30, Airport= Bucuresti, places= 100])
+28 Mar 2023 23:32:30,476 TRACE Repository.FlightRepo.FlightDBRepo 58 findFlightsByDestinationDate - Enter
+28 Mar 2023 23:32:30,476 TRACE Repository.JdbcUtils 47 getConnection - Enter
+28 Mar 2023 23:32:30,476 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6db3423e)
+28 Mar 2023 23:32:30,477 TRACE Repository.FlightRepo.FlightDBRepo 85 findFlightsByDestinationDate - Exit with([Id: 3, Destination= Nice, Datetime= 2023-08-28T11:20, Airport= Cluj, places= 130, Id: 6, Destination= Nice, Datetime= 2023-09-11T11:30, Airport= Bucuresti, places= 100])
+28 Mar 2023 23:32:57,229 TRACE Repository.TicketRepo.TicketDBRepo 35 save - Enter saving ticket Model.Ticket@618cd7e9 
+28 Mar 2023 23:32:57,229 TRACE Repository.JdbcUtils 47 getConnection - Enter
+28 Mar 2023 23:32:57,229 TRACE Repository.JdbcUtils 24 getNewConnection - Enter
+28 Mar 2023 23:32:57,230 INFO  Repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite
+28 Mar 2023 23:32:57,230 INFO  Repository.JdbcUtils 30 getNewConnection - user: null
+28 Mar 2023 23:32:57,230 INFO  Repository.JdbcUtils 31 getNewConnection - pass: null
+28 Mar 2023 23:32:57,231 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5361ba41)
+28 Mar 2023 23:32:57,269 TRACE Repository.TicketRepo.TicketDBRepo 45 save - Saved 1 instances
+28 Mar 2023 23:32:57,269 TRACE Repository.TicketRepo.TicketDBRepo 50 save - Exit
+28 Mar 2023 23:38:03,287 INFO  Repository.EmployeeRepo.EmployeeDBRepo 20 <init> - Initializing EmployeeDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 23:38:03,300 INFO  Repository.FlightRepo.FlightDBRepo 22 <init> - Initializing FlightDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 23:38:03,301 INFO  Repository.TicketRepo.TicketDBRepo 19 <init> - Initializing TicketDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 23:38:28,836 TRACE Repository.EmployeeRepo.EmployeeDBRepo 26 authentificate - Enter authentificating employee email koana14@yahoo.com 
+28 Mar 2023 23:38:28,837 TRACE Repository.JdbcUtils 47 getConnection - Enter
+28 Mar 2023 23:38:28,837 TRACE Repository.JdbcUtils 24 getNewConnection - Enter
+28 Mar 2023 23:38:28,837 INFO  Repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite
+28 Mar 2023 23:38:28,837 INFO  Repository.JdbcUtils 30 getNewConnection - user: null
+28 Mar 2023 23:38:28,838 INFO  Repository.JdbcUtils 31 getNewConnection - pass: null
+28 Mar 2023 23:38:28,999 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3e123638)
+28 Mar 2023 23:38:29,003 INFO  Repository.EmployeeRepo.EmployeeDBRepo 43 authentificate - Authentification failed!
+28 Mar 2023 23:38:38,841 TRACE Repository.EmployeeRepo.EmployeeDBRepo 26 authentificate - Enter authentificating employee email koana14@yahoo.com 
+28 Mar 2023 23:38:38,842 TRACE Repository.JdbcUtils 47 getConnection - Enter
+28 Mar 2023 23:38:38,842 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3e123638)
+28 Mar 2023 23:38:38,842 INFO  Repository.EmployeeRepo.EmployeeDBRepo 39 authentificate - Authentification successfull!
+28 Mar 2023 23:38:38,937 TRACE Repository.FlightRepo.FlightDBRepo 28 findAvailableFlights - Enter
+28 Mar 2023 23:38:38,937 TRACE Repository.JdbcUtils 47 getConnection - Enter
+28 Mar 2023 23:38:38,937 TRACE Repository.JdbcUtils 24 getNewConnection - Enter
+28 Mar 2023 23:38:38,937 INFO  Repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite
+28 Mar 2023 23:38:38,938 INFO  Repository.JdbcUtils 30 getNewConnection - user: null
+28 Mar 2023 23:38:38,938 INFO  Repository.JdbcUtils 31 getNewConnection - pass: null
+28 Mar 2023 23:38:38,939 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@48d88adf)
+28 Mar 2023 23:38:38,953 TRACE Repository.FlightRepo.FlightDBRepo 52 findAvailableFlights - Exit with([Id: 3, Destination= Nice, Datetime= 2023-08-28T11:20, Airport= Cluj, places= 130, Id: 4, Destination= Dubai, Datetime= 2023-07-10T15:15, Airport= Cluj, places= 130, Id: 5, Destination= Nice, Datetime= 2023-06-13T11:30, Airport= Cluj, places= 100, Id: 6, Destination= Nice, Datetime= 2023-09-11T11:30, Airport= Bucuresti, places= 100])
+28 Mar 2023 23:38:54,103 TRACE Repository.FlightRepo.FlightDBRepo 58 findFlightsByDestinationDate - Enter
+28 Mar 2023 23:38:54,104 TRACE Repository.JdbcUtils 47 getConnection - Enter
+28 Mar 2023 23:38:54,104 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@48d88adf)
+28 Mar 2023 23:38:54,105 TRACE Repository.FlightRepo.FlightDBRepo 85 findFlightsByDestinationDate - Exit with([Id: 3, Destination= Nice, Datetime= 2023-08-28T11:20, Airport= Cluj, places= 130, Id: 6, Destination= Nice, Datetime= 2023-09-11T11:30, Airport= Bucuresti, places= 100])
+28 Mar 2023 23:39:25,476 TRACE Repository.TicketRepo.TicketDBRepo 35 save - Enter saving ticket Model.Ticket@395c565d 
+28 Mar 2023 23:39:25,477 TRACE Repository.JdbcUtils 47 getConnection - Enter
+28 Mar 2023 23:39:25,477 TRACE Repository.JdbcUtils 24 getNewConnection - Enter
+28 Mar 2023 23:39:25,477 INFO  Repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite
+28 Mar 2023 23:39:25,478 INFO  Repository.JdbcUtils 30 getNewConnection - user: null
+28 Mar 2023 23:39:25,478 INFO  Repository.JdbcUtils 31 getNewConnection - pass: null
+28 Mar 2023 23:39:25,478 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3ee8ed00)
+28 Mar 2023 23:39:25,515 TRACE Repository.TicketRepo.TicketDBRepo 45 save - Saved 1 instances
+28 Mar 2023 23:39:25,516 TRACE Repository.TicketRepo.TicketDBRepo 50 save - Exit
+28 Mar 2023 23:39:25,516 TRACE Repository.FlightRepo.FlightDBRepo 146 update - Enter updating flight Id: 6, Destination= Nice, Datetime= 2023-09-11T11:30, Airport= Bucuresti, places= 99 
+28 Mar 2023 23:39:25,516 TRACE Repository.JdbcUtils 47 getConnection - Enter
+28 Mar 2023 23:39:25,517 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@48d88adf)
+28 Mar 2023 23:39:25,555 TRACE Repository.FlightRepo.FlightDBRepo 152 update - Updated 1 instances
+28 Mar 2023 23:39:25,555 TRACE Repository.FlightRepo.FlightDBRepo 157 update - Exit
+28 Mar 2023 23:39:25,555 TRACE Repository.FlightRepo.FlightDBRepo 28 findAvailableFlights - Enter
+28 Mar 2023 23:39:25,555 TRACE Repository.JdbcUtils 47 getConnection - Enter
+28 Mar 2023 23:39:25,556 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@48d88adf)
+28 Mar 2023 23:39:25,556 TRACE Repository.FlightRepo.FlightDBRepo 52 findAvailableFlights - Exit with([Id: 3, Destination= Nice, Datetime= 2023-08-28T11:20, Airport= Cluj, places= 130, Id: 4, Destination= Dubai, Datetime= 2023-07-10T15:15, Airport= Cluj, places= 130, Id: 5, Destination= Nice, Datetime= 2023-06-13T11:30, Airport= Cluj, places= 100, Id: 6, Destination= Nice, Datetime= 2023-09-11T11:30, Airport= Bucuresti, places= 99])
+28 Mar 2023 23:42:53,767 INFO  Repository.EmployeeRepo.EmployeeDBRepo 20 <init> - Initializing EmployeeDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 23:42:53,780 INFO  Repository.FlightRepo.FlightDBRepo 22 <init> - Initializing FlightDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 23:42:53,782 INFO  Repository.TicketRepo.TicketDBRepo 19 <init> - Initializing TicketDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+28 Mar 2023 23:43:07,446 TRACE Repository.EmployeeRepo.EmployeeDBRepo 26 authentificate - Enter authentificating employee email koana14@yahoo.com 
+28 Mar 2023 23:43:07,446 TRACE Repository.JdbcUtils 47 getConnection - Enter
+28 Mar 2023 23:43:07,446 TRACE Repository.JdbcUtils 24 getNewConnection - Enter
+28 Mar 2023 23:43:07,447 INFO  Repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite
+28 Mar 2023 23:43:07,447 INFO  Repository.JdbcUtils 30 getNewConnection - user: null
+28 Mar 2023 23:43:07,447 INFO  Repository.JdbcUtils 31 getNewConnection - pass: null
+28 Mar 2023 23:43:07,616 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@625d26c3)
+28 Mar 2023 23:43:07,620 INFO  Repository.EmployeeRepo.EmployeeDBRepo 39 authentificate - Authentification successfull!
+28 Mar 2023 23:43:07,719 TRACE Repository.FlightRepo.FlightDBRepo 28 findAvailableFlights - Enter
+28 Mar 2023 23:43:07,719 TRACE Repository.JdbcUtils 47 getConnection - Enter
+28 Mar 2023 23:43:07,720 TRACE Repository.JdbcUtils 24 getNewConnection - Enter
+28 Mar 2023 23:43:07,720 INFO  Repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite
+28 Mar 2023 23:43:07,720 INFO  Repository.JdbcUtils 30 getNewConnection - user: null
+28 Mar 2023 23:43:07,720 INFO  Repository.JdbcUtils 31 getNewConnection - pass: null
+28 Mar 2023 23:43:07,721 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3d942800)
+28 Mar 2023 23:43:07,734 TRACE Repository.FlightRepo.FlightDBRepo 52 findAvailableFlights - Exit with([Id: 3, Destination= Nice, Datetime= 2023-08-28T11:20, Airport= Cluj, places= 130, Id: 4, Destination= Dubai, Datetime= 2023-07-10T15:15, Airport= Cluj, places= 130, Id: 5, Destination= Nice, Datetime= 2023-06-13T11:30, Airport= Cluj, places= 100, Id: 6, Destination= Nice, Datetime= 2023-09-11T11:30, Airport= Bucuresti, places= 99])
+29 Mar 2023 08:20:02,885 INFO  Repository.EmployeeRepo.EmployeeDBRepo 20 <init> - Initializing EmployeeDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+29 Mar 2023 08:20:02,901 INFO  Repository.FlightRepo.FlightDBRepo 22 <init> - Initializing FlightDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+29 Mar 2023 08:20:02,902 INFO  Repository.TicketRepo.TicketDBRepo 19 <init> - Initializing TicketDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+29 Mar 2023 08:20:15,789 TRACE Repository.EmployeeRepo.EmployeeDBRepo 26 authentificate - Enter authentificating employee email koana14@yahoo.com 
+29 Mar 2023 08:20:15,789 TRACE Repository.JdbcUtils 47 getConnection - Enter
+29 Mar 2023 08:20:15,790 TRACE Repository.JdbcUtils 24 getNewConnection - Enter
+29 Mar 2023 08:20:15,790 INFO  Repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite
+29 Mar 2023 08:20:15,792 INFO  Repository.JdbcUtils 30 getNewConnection - user: null
+29 Mar 2023 08:20:15,793 INFO  Repository.JdbcUtils 31 getNewConnection - pass: null
+29 Mar 2023 08:20:16,067 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@625d26c3)
+29 Mar 2023 08:20:16,073 INFO  Repository.EmployeeRepo.EmployeeDBRepo 39 authentificate - Authentification successfull!
+29 Mar 2023 08:20:16,208 TRACE Repository.FlightRepo.FlightDBRepo 28 findAvailableFlights - Enter
+29 Mar 2023 08:20:16,209 TRACE Repository.JdbcUtils 47 getConnection - Enter
+29 Mar 2023 08:20:16,209 TRACE Repository.JdbcUtils 24 getNewConnection - Enter
+29 Mar 2023 08:20:16,209 INFO  Repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite
+29 Mar 2023 08:20:16,209 INFO  Repository.JdbcUtils 30 getNewConnection - user: null
+29 Mar 2023 08:20:16,210 INFO  Repository.JdbcUtils 31 getNewConnection - pass: null
+29 Mar 2023 08:20:16,211 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3d942800)
+29 Mar 2023 08:20:16,227 TRACE Repository.FlightRepo.FlightDBRepo 52 findAvailableFlights - Exit with([Id: 3, Destination= Nice, Datetime= 2023-08-28T11:20, Airport= Cluj, places= 130, Id: 4, Destination= Dubai, Datetime= 2023-07-10T15:15, Airport= Cluj, places= 130, Id: 5, Destination= Nice, Datetime= 2023-06-13T11:30, Airport= Cluj, places= 100, Id: 6, Destination= Nice, Datetime= 2023-09-11T11:30, Airport= Bucuresti, places= 99])
+29 Mar 2023 08:20:46,886 TRACE Repository.FlightRepo.FlightDBRepo 58 findFlightsByDestinationDate - Enter
+29 Mar 2023 08:20:46,886 TRACE Repository.JdbcUtils 47 getConnection - Enter
+29 Mar 2023 08:20:46,887 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3d942800)
+29 Mar 2023 08:20:46,890 TRACE Repository.FlightRepo.FlightDBRepo 85 findFlightsByDestinationDate - Exit with([Id: 3, Destination= Nice, Datetime= 2023-08-28T11:20, Airport= Cluj, places= 130, Id: 6, Destination= Nice, Datetime= 2023-09-11T11:30, Airport= Bucuresti, places= 99])
+29 Mar 2023 08:21:13,360 TRACE Repository.TicketRepo.TicketDBRepo 35 save - Enter saving ticket Model.Ticket@4978ca09 
+29 Mar 2023 08:21:13,362 TRACE Repository.JdbcUtils 47 getConnection - Enter
+29 Mar 2023 08:21:13,362 TRACE Repository.JdbcUtils 24 getNewConnection - Enter
+29 Mar 2023 08:21:13,363 INFO  Repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite
+29 Mar 2023 08:21:13,363 INFO  Repository.JdbcUtils 30 getNewConnection - user: null
+29 Mar 2023 08:21:13,364 INFO  Repository.JdbcUtils 31 getNewConnection - pass: null
+29 Mar 2023 08:21:13,367 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2ed3edbe)
+29 Mar 2023 08:21:13,409 TRACE Repository.TicketRepo.TicketDBRepo 45 save - Saved 1 instances
+29 Mar 2023 08:21:13,410 TRACE Repository.TicketRepo.TicketDBRepo 50 save - Exit
+29 Mar 2023 08:21:13,411 TRACE Repository.FlightRepo.FlightDBRepo 146 update - Enter updating flight Id: 3, Destination= Nice, Datetime= 2023-08-28T11:20, Airport= Cluj, places= 129 
+29 Mar 2023 08:21:13,411 TRACE Repository.JdbcUtils 47 getConnection - Enter
+29 Mar 2023 08:21:13,411 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3d942800)
+29 Mar 2023 08:21:13,448 TRACE Repository.FlightRepo.FlightDBRepo 152 update - Updated 1 instances
+29 Mar 2023 08:21:13,449 TRACE Repository.FlightRepo.FlightDBRepo 157 update - Exit
+29 Mar 2023 08:21:13,450 TRACE Repository.FlightRepo.FlightDBRepo 28 findAvailableFlights - Enter
+29 Mar 2023 08:21:13,450 TRACE Repository.JdbcUtils 47 getConnection - Enter
+29 Mar 2023 08:21:13,451 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3d942800)
+29 Mar 2023 08:21:13,454 TRACE Repository.FlightRepo.FlightDBRepo 52 findAvailableFlights - Exit with([Id: 3, Destination= Nice, Datetime= 2023-08-28T11:20, Airport= Cluj, places= 129, Id: 4, Destination= Dubai, Datetime= 2023-07-10T15:15, Airport= Cluj, places= 130, Id: 5, Destination= Nice, Datetime= 2023-06-13T11:30, Airport= Cluj, places= 100, Id: 6, Destination= Nice, Datetime= 2023-09-11T11:30, Airport= Bucuresti, places= 99])
+30 Mar 2023 18:12:52,087 INFO  Repository.EmployeeRepo.EmployeeDBRepo 20 <init> - Initializing EmployeeDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+30 Mar 2023 18:12:52,101 INFO  Repository.FlightRepo.FlightDBRepo 22 <init> - Initializing FlightDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+30 Mar 2023 18:12:52,102 INFO  Repository.TicketRepo.TicketDBRepo 19 <init> - Initializing TicketDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+30 Mar 2023 18:13:07,868 TRACE Repository.EmployeeRepo.EmployeeDBRepo 26 authentificate - Enter authentificating employee email koana14@yahoo.com 
+30 Mar 2023 18:13:07,868 TRACE Repository.JdbcUtils 47 getConnection - Enter
+30 Mar 2023 18:13:07,868 TRACE Repository.JdbcUtils 24 getNewConnection - Enter
+30 Mar 2023 18:13:07,868 INFO  Repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite
+30 Mar 2023 18:13:07,869 INFO  Repository.JdbcUtils 30 getNewConnection - user: null
+30 Mar 2023 18:13:07,869 INFO  Repository.JdbcUtils 31 getNewConnection - pass: null
+30 Mar 2023 18:13:08,031 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2f200f97)
+30 Mar 2023 18:13:08,036 INFO  Repository.EmployeeRepo.EmployeeDBRepo 39 authentificate - Authentification successfull!
+30 Mar 2023 18:13:08,129 TRACE Repository.FlightRepo.FlightDBRepo 28 findAvailableFlights - Enter
+30 Mar 2023 18:13:08,130 TRACE Repository.JdbcUtils 47 getConnection - Enter
+30 Mar 2023 18:13:08,130 TRACE Repository.JdbcUtils 24 getNewConnection - Enter
+30 Mar 2023 18:13:08,131 INFO  Repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite
+30 Mar 2023 18:13:08,131 INFO  Repository.JdbcUtils 30 getNewConnection - user: null
+30 Mar 2023 18:13:08,131 INFO  Repository.JdbcUtils 31 getNewConnection - pass: null
+30 Mar 2023 18:13:08,133 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@69591517)
+30 Mar 2023 18:13:08,147 TRACE Repository.FlightRepo.FlightDBRepo 52 findAvailableFlights - Exit with([Id: 3, Destination= Nice, Datetime= 2023-08-28T11:20, Airport= Cluj, places= 129, Id: 4, Destination= Dubai, Datetime= 2023-07-10T15:15, Airport= Cluj, places= 130, Id: 5, Destination= Nice, Datetime= 2023-06-13T11:30, Airport= Cluj, places= 100, Id: 6, Destination= Nice, Datetime= 2023-09-11T11:30, Airport= Bucuresti, places= 99])
+30 Mar 2023 18:13:49,315 TRACE Repository.FlightRepo.FlightDBRepo 58 findFlightsByDestinationDate - Enter
+30 Mar 2023 18:13:49,315 TRACE Repository.JdbcUtils 47 getConnection - Enter
+30 Mar 2023 18:13:49,315 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@69591517)
+30 Mar 2023 18:13:49,316 TRACE Repository.FlightRepo.FlightDBRepo 85 findFlightsByDestinationDate - Exit with([Id: 3, Destination= Nice, Datetime= 2023-08-28T11:20, Airport= Cluj, places= 129, Id: 6, Destination= Nice, Datetime= 2023-09-11T11:30, Airport= Bucuresti, places= 99])
+30 Mar 2023 18:14:34,280 TRACE Repository.TicketRepo.TicketDBRepo 35 save - Enter saving ticket Model.Ticket@5f1d4aa3 
+30 Mar 2023 18:14:34,280 TRACE Repository.JdbcUtils 47 getConnection - Enter
+30 Mar 2023 18:14:34,280 TRACE Repository.JdbcUtils 24 getNewConnection - Enter
+30 Mar 2023 18:14:34,281 INFO  Repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite
+30 Mar 2023 18:14:34,281 INFO  Repository.JdbcUtils 30 getNewConnection - user: null
+30 Mar 2023 18:14:34,281 INFO  Repository.JdbcUtils 31 getNewConnection - pass: null
+30 Mar 2023 18:14:34,282 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5e8f4e9d)
+30 Mar 2023 18:14:34,288 ERROR Repository.TicketRepo.TicketDBRepo 46 save - org.sqlite.SQLiteException: [SQLITE_CONSTRAINT_NOTNULL]  A NOT NULL constraint failed (NOT NULL constraint failed: ticket.client_name)
+30 Mar 2023 18:14:34,288 TRACE Repository.TicketRepo.TicketDBRepo 49 save - Exit
+30 Mar 2023 18:14:34,289 TRACE Repository.FlightRepo.FlightDBRepo 146 update - Enter updating flight Id: 6, Destination= Nice, Datetime= 2023-09-11T11:30, Airport= Bucuresti, places= 98 
+30 Mar 2023 18:14:34,289 TRACE Repository.JdbcUtils 47 getConnection - Enter
+30 Mar 2023 18:14:34,289 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@69591517)
+30 Mar 2023 18:14:34,321 TRACE Repository.FlightRepo.FlightDBRepo 152 update - Updated 1 instances
+30 Mar 2023 18:14:34,322 TRACE Repository.FlightRepo.FlightDBRepo 157 update - Exit
+30 Mar 2023 18:14:34,322 TRACE Repository.FlightRepo.FlightDBRepo 28 findAvailableFlights - Enter
+30 Mar 2023 18:14:34,322 TRACE Repository.JdbcUtils 47 getConnection - Enter
+30 Mar 2023 18:14:34,322 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@69591517)
+30 Mar 2023 18:14:34,323 TRACE Repository.FlightRepo.FlightDBRepo 52 findAvailableFlights - Exit with([Id: 3, Destination= Nice, Datetime= 2023-08-28T11:20, Airport= Cluj, places= 129, Id: 4, Destination= Dubai, Datetime= 2023-07-10T15:15, Airport= Cluj, places= 130, Id: 5, Destination= Nice, Datetime= 2023-06-13T11:30, Airport= Cluj, places= 100, Id: 6, Destination= Nice, Datetime= 2023-09-11T11:30, Airport= Bucuresti, places= 98])
+11 Apr 2023 10:16:57,513 INFO  Repository.EmployeeRepo.EmployeeDBRepo 20 <init> - Initializing EmployeeDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+11 Apr 2023 10:16:57,531 INFO  Repository.FlightRepo.FlightDBRepo 22 <init> - Initializing FlightDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+11 Apr 2023 10:16:57,533 INFO  Repository.TicketRepo.TicketDBRepo 19 <init> - Initializing TicketDBRepo with properties: {jdbc.url=jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite} 
+11 Apr 2023 10:17:13,973 TRACE Repository.EmployeeRepo.EmployeeDBRepo 26 authentificate - Enter authentificating employee email koana14@yahoo.com 
+11 Apr 2023 10:17:13,973 TRACE Repository.JdbcUtils 47 getConnection - Enter
+11 Apr 2023 10:17:13,974 TRACE Repository.JdbcUtils 24 getNewConnection - Enter
+11 Apr 2023 10:17:13,974 INFO  Repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite
+11 Apr 2023 10:17:13,975 INFO  Repository.JdbcUtils 30 getNewConnection - user: null
+11 Apr 2023 10:17:13,975 INFO  Repository.JdbcUtils 31 getNewConnection - pass: null
+11 Apr 2023 10:17:14,175 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@19b5d609)
+11 Apr 2023 10:17:14,178 INFO  Repository.EmployeeRepo.EmployeeDBRepo 39 authentificate - Authentification successfull!
+11 Apr 2023 10:17:14,269 TRACE Repository.FlightRepo.FlightDBRepo 28 findAvailableFlights - Enter
+11 Apr 2023 10:17:14,269 TRACE Repository.JdbcUtils 47 getConnection - Enter
+11 Apr 2023 10:17:14,269 TRACE Repository.JdbcUtils 24 getNewConnection - Enter
+11 Apr 2023 10:17:14,270 INFO  Repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Katy/faculta/AN2/Sem2/MPP/databases/turismjava.sqlite
+11 Apr 2023 10:17:14,270 INFO  Repository.JdbcUtils 30 getNewConnection - user: null
+11 Apr 2023 10:17:14,271 INFO  Repository.JdbcUtils 31 getNewConnection - pass: null
+11 Apr 2023 10:17:14,271 TRACE Repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@57489b43)
+11 Apr 2023 10:17:14,285 TRACE Repository.FlightRepo.FlightDBRepo 52 findAvailableFlights - Exit with([Id: 3, Destination= Nice, Datetime= 2023-08-28T11:20, Airport= Cluj, places= 129, Id: 4, Destination= Dubai, Datetime= 2023-07-10T15:15, Airport= Cluj, places= 130, Id: 5, Destination= Nice, Datetime= 2023-06-13T11:30, Airport= Cluj, places= 100, Id: 6, Destination= Nice, Datetime= 2023-09-11T11:30, Airport= Bucuresti, places= 98])

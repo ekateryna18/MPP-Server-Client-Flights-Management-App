@@ -1,0 +1,46 @@
+syntax="proto3";
+package agency.network.protobuffprotocol;
+
+option java_package = "agency.network.protobuffprotocol";
+option java_outer_classname = "AgencyProtobufs";
+
+message Employee{
+  string email=1;
+  string password=2;
+}
+message FilterData{
+  string destination=1;
+  string datetime=2;
+}
+message Flight{
+  int32 FlightID=1;
+  string destination=2;
+  string datetime=3;
+  string airport=4;
+  int32 noPlaces=5;
+}
+message Ticket{
+  string clientName=1;
+  string touristNames=2;
+  string clientAddress=3;
+  int32 noPlaces=4;
+  Flight flight=5;
+}
+
+message AgencyRequest{
+  enum Type{Unknown=0; Login=1; Logout=2; Get_flights=3; Buy_ticket=4; Filter_flights=5;}
+  Type type = 1;
+
+  Employee employee = 2;
+  FilterData filter_data_array = 3;
+  Ticket ticket = 4;
+}
+message AgencyResponse{
+  enum Type{Unknown=0; Ok=1; Error=2; Get_flights=3; Update_flights=4;}
+  Type type = 1;
+  string error = 2;
+  repeated Flight flights = 3;
+  Employee employee = 4;
+  Ticket ticket = 5;
+  Flight flight = 6;
+}
